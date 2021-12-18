@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolioReactjsV2/static/css/main.7ffa107f.chunk.css",
+    "main.js": "/portfolioReactjsV2/static/js/main.34426054.chunk.js",
+    "main.js.map": "/portfolioReactjsV2/static/js/main.34426054.chunk.js.map",
+    "runtime-main.js": "/portfolioReactjsV2/static/js/runtime-main.63306d01.js",
+    "runtime-main.js.map": "/portfolioReactjsV2/static/js/runtime-main.63306d01.js.map",
+    "static/js/2.3f2a739b.chunk.js": "/portfolioReactjsV2/static/js/2.3f2a739b.chunk.js",
+    "static/js/2.3f2a739b.chunk.js.map": "/portfolioReactjsV2/static/js/2.3f2a739b.chunk.js.map",
+    "index.html": "/portfolioReactjsV2/index.html",
+    "static/css/main.7ffa107f.chunk.css.map": "/portfolioReactjsV2/static/css/main.7ffa107f.chunk.css.map",
+    "static/js/2.3f2a739b.chunk.js.LICENSE.txt": "/portfolioReactjsV2/static/js/2.3f2a739b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolioReactjsV2/static/media/backgroundimgb&w.57455b4a.png",
+    "static/media/matheus-image.8b4c80c4.jpeg": "/portfolioReactjsV2/static/media/matheus-image.8b4c80c4.jpeg",
+    "static/media/recipe-app.3760e4ff.png": "/portfolioReactjsV2/static/media/recipe-app.3760e4ff.png",
+    "static/media/trivia.60467980.png": "/portfolioReactjsV2/static/media/trivia.60467980.png",
+    "static/media/trybewallet-project.54ecbae6.png": "/portfolioReactjsV2/static/media/trybewallet-project.54ecbae6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63306d01.js",
+    "static/js/2.3f2a739b.chunk.js",
+    "static/css/main.7ffa107f.chunk.css",
+    "static/js/main.34426054.chunk.js"
+  ]
+}
