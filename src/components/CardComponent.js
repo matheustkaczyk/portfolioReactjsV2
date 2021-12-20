@@ -1,14 +1,18 @@
-const CardComponent = (img, alt, title, text1, text2) => {
+import { AiOutlineGithub } from 'react-icons/ai';
+
+
+const CardComponent = (img, alt, title, link, github) => {
   return (
     <div className='project-card'>
       <div className='project-image-div'>
-        <img className="project-image" src={ img } alt={ alt } />
-        <h3>{title}</h3>
+        <a href={ link } target='_blank' rel="noreferrer">
+          <img className="project-image" src={ img } alt={ alt } />
+        </a>
+          <h3>{title}</h3>
+        <a href={ github } target='_blank' rel='noreferrer'>
+          <AiOutlineGithub className='project-github-icon' />
+        </a>
       </div>
-      {/* <div className="project-text-div">
-        <p className='project-text'>{text1}</p>
-        <p className='project-text'>{text2}</p>
-      </div> */}
     </div>
   )
 };

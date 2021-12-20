@@ -14,20 +14,26 @@ const Projects = () => {
       text1: 'Projeto desenvolvido utilizando React e Redux para o gerenciamento de estado.',
       text2: 'A ideia foi fazer um app de gerencimento de gastos com conversão automática para real.',
       img: trybewalletimg,
+      link: "https://project-trybewallet-psi.vercel.app/",
+      github: 'https://github.com/matheustkaczyk/project-trybewallet'
     },
     {
       alt: 'app de receitas',
       title: 'App de Receitas',
       text1: 'Projeto desenvolvido em equipe, utilizando React e ContextAPI para o gerenciamento do estado.',
       text2: 'A ideia foi consumir APIs de receitas, construindo assim um app mobile para facilitar a confecção das receitas.',
-      img: recipeappimg
+      img: recipeappimg,
+      link: 'https://project-recipe-app-eight.vercel.app/',
+      github: 'https://github.com/matheustkaczyk/project-recipe-app'
     },
     {
       alt: 'trivia',
       title: 'Trivia',
       text1: 'Projeto desenvolvido em equipe, utilizando React e Redux para o gerenciemento do estado.',
       text2: 'A ideia foi construir um jogo web de perguntas e respostas, consumindo uma API de trivia.',
-      img: triviaimg
+      img: triviaimg,
+      link: 'https://project-trivia-xi.vercel.app/',
+      github: 'https://github.com/matheustkaczyk/project-trivia'
     }
   ];
 
@@ -43,7 +49,7 @@ const Projects = () => {
               sendo eles feitos sozinho ou em equipe.</p>
           <div className="projects-section">
             <div className='projects-card'>
-              {cardTexts.map(({ img, alt, title }) => CardComponent(img, alt, title))}
+              {cardTexts.map(({ img, alt, title, link, github }) => CardComponent(img, alt, title, link, github))}
             </div>
           </div>
       </div>

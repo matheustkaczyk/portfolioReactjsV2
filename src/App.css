@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .anchor-div {
   position: relative;
   float: right;
@@ -237,16 +242,18 @@ hr {
 }
 
 .project-card {
-  width: 25%;
+  width: 22%;
   height: 20%;
   overflow: hidden;
   transition: 1s;
   text-align: center;
+  border: solid 1px whitesmoke;
+  border-radius: 5%;
 }
 
 .project-card:hover {
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
   transition: 1s;
 }
 
@@ -262,6 +269,11 @@ hr {
 
 .project-text {
   font-size: 1rem;
+}
+
+.project-github-icon {
+  height: 5vh;
+  width: 5vw;
 }
 
 .contact-session {
