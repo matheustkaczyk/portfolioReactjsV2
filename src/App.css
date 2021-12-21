@@ -366,3 +366,26 @@ textarea {
     margin-top: 10%;
   }
 }
+
+@media screen and (max-width:1024px) and (max-height: 600px) {
+  .about-more-info {
+    display: none;
+    visibility: hidden;
+  }
+
+  .about-text {
+    font-size: 1.2rem;
+  }
+
+  .projects-hero-paragraph {
+    font-size: 1rem;
+  }
+
+  .project-text {
+    font-size: 0.9rem;
+  }
+
+  .contact-session {
+    margin-top: 10%;
+  }
+}
