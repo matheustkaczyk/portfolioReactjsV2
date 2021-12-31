@@ -76,22 +76,21 @@ a {
 .main-section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   /* background-image: url('./images/backgroundImg.jpg'); */
   background-size: cover;
   color: white;
-  text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .main-informations {
-  background-color: rgba(9, 9, 9, 0.9);
-  border-radius: 10%;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-  max-height: 80vh;
+  /* margin-top: 20vh;
+  margin-bottom: 20vh; */
+  /* max-height: 80vh; */
   padding: 2%;
+  text-align: center;
 }
 
 .main-hero-img {
@@ -101,6 +100,10 @@ a {
   border: solid #00ff40 5px;
 }
 
+.main-hero-text {
+  font-size: 4rem;
+}
+
 .main-hero-subtitle {
   color: #00ff40;
 }
@@ -108,13 +111,17 @@ a {
 .social-medias {
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
+  margin-top: 10%;
   justify-content: center;
   align-items: center;
 }
 
 .linkedin:hover {
   color: rgb(40, 103, 178);
+}
+
+.github:hover {
+  color: grey;
 }
 
 .whatsapp:hover {
@@ -134,14 +141,18 @@ a {
   height: 100vh;
   color: white;
   background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-hero-session {
   display: flex;
   flex-direction: column;
   margin-top: 3vh;
-  margin-left: 45%;
-  margin-right: 45%;
+  /* margin-left: 45%;
+  margin-right: 45%; */
 }
 
 hr {
@@ -153,26 +164,26 @@ hr {
   height: 10vh;
   width: 10vw;
   color: #00ff40;
-  padding-top: 10%;
+  /* padding-top: 10%; */
 }
 
 .about-text-session {
   display: flex;
   flex-direction: row;
   margin-top: 1vh;
-  max-width: 80vw;
-  margin-left: 30%;
-  margin-right: 30%;
+  max-width: 60vw;
+  /* margin-left: 30%;
+  margin-right: 30%; */
 }
 
 .about-hero-title {
   text-align: center;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 .about-hello-text {
   color: #00ff40;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .about-text {
@@ -202,7 +213,7 @@ hr {
 }
 
 .projects-session {
-  margin-top: 10vh;
+  margin-top: 20vh;
   height: 100vh;
   color: white;
 }
