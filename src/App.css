@@ -76,9 +76,8 @@ a {
 .main-section {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 70vh;
   width: 100vw;
-  /* background-image: url('./images/backgroundImg.jpg'); */
   background-size: cover;
   color: white;
   align-items: center;
@@ -213,17 +212,25 @@ hr {
 }
 
 .projects-session {
-  margin-top: 20vh;
   height: 100vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-proj-icon {
   height: 10vh;
   width: 10vw;
   color: #00ff40;
-  margin-left: 45%;
-  margin-right: 45%;
+}
+
+.projects-proj-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .github-icon {
@@ -242,8 +249,7 @@ hr {
   text-align: center;
   margin-top: 2%;
   font-size: 1.5rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  max-width: 60vw;
 }
 
 .projects-card {
@@ -290,7 +296,10 @@ hr {
 }
 
 .contact-session {
-  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
@@ -301,13 +310,7 @@ hr {
   background-color: rgba(9, 9, 9, 0.9);
   padding: 3%;
   border-radius: 2%;
-  width: 50%;
-  height: 50%;
-}
-
-.contact-main {
-  margin-left: 45%;
-  margin-right: 45%;
+  width: 60vw;
 }
 
 .contact-div {
@@ -354,6 +357,9 @@ form textarea {
 textarea {
   resize: none;
 }
+
+
+
 
 @media screen and (max-width:960px) and (max-height: 640px) {
   .about-more-info {
