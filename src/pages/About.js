@@ -6,7 +6,7 @@ import { IoLogoGameControllerB, IoMdHeadset, IoIosBook, IoIosCafe } from "react-
 const About = () => {
     return (
         <div id="sobre" className="about-section">
-            {ButtonAnchor('inicio', 'projetos')}
+            {/* {ButtonAnchor('inicio', 'projetos')} */}
             <div className="about-hero-session">
                 <IoBulbOutline className="about-light-icon"/>
                 <h1 className="about-hero-title">Sobre</h1>

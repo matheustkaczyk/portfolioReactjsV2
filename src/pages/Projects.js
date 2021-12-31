@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonAnchor from '../components/ButtonAnchor';
+// import ButtonAnchor from '../components/ButtonAnchor';
 import { AiFillProject } from 'react-icons/ai';
 import CardComponent from '../components/CardComponent';
 import trybewalletimg from '../images/trybewallet-project.png';
@@ -39,7 +39,7 @@ const Projects = () => {
 
   return (
       <div id="projetos" className="projects-session">
-        {ButtonAnchor("sobre", "contato")}
+        {/* {ButtonAnchor("sobre", "contato")} */}
           <div className='projects-proj-div'>
               <AiFillProject className="projects-proj-icon" />
               <h1 className="projects-hero-title">Projetos</h1>

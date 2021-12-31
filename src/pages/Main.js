@@ -5,9 +5,9 @@ import Me from '../images/matheus-image.jpeg';
 const Main = () => {
     return (
         <div className="main-section">
-            <div className="main-informations">
+            {/* <div className="main-informations"> */}
                 {/* <img className="main-hero-img" src={ Me } alt="Foto Matheus Tkaczyk Ribeiro" /> */}
-                <div>
+                {/* <div> */}
                     <h1 className="main-hero-text">Matheus Tkaczyk Ribeiro</h1>
                     <h3 className="main-hero-subtitle">Desenvolvedor Web Jr.</h3>
                     <div className="social-medias">
@@ -21,8 +21,8 @@ const Main = () => {
                             <AiOutlineWhatsApp className="social-items whatsapp" />
                         </a>
                     </div>
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
         </div>
     )
 }

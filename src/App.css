@@ -3,7 +3,7 @@ hmtl, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #181818;
 }
 
@@ -78,7 +78,7 @@ a {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-image: url('./images/backgroundImg.jpg');
+  /* background-image: url('./images/backgroundImg.jpg'); */
   background-size: cover;
   color: white;
   text-align: center;

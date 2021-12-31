@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
         <div id='contato' className='contact-session'>
-            {ButtonAnchor("projetos", "inicio")}
+            {/* {ButtonAnchor("projetos", "inicio")} */}
             <div className='contact-main'>
                 <BsMailbox className='contact-mail-icon' />
                 <h1 className='contact-hero-title'>Contato</h1>
