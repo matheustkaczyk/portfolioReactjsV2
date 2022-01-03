@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillLinkedin, AiOutlineGithub, AiOutlineWhatsApp } from 'react-icons/ai';
-import Me from '../images/matheus-image.jpeg';
 
 const Main = () => {
     return (

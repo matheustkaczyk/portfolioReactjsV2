@@ -1,7 +1,7 @@
 import React from 'react';
-import ButtonAnchor from '../components/ButtonAnchor';
 import { IoBulbOutline } from 'react-icons/io5'
 import { IoLogoGameControllerB, IoMdHeadset, IoIosBook, IoIosCafe } from "react-icons/io";
+import computerSvg from '../images/blogging.svg';
 
 const About = () => {
     return (
@@ -12,15 +12,17 @@ const About = () => {
                 <h1 className="about-hero-title">Sobre</h1>
             </div>
                 <hr />
-            <div className="about-text-session">
-                <h3 className="about-hello-text">Olá, meu nome é Matheus</h3>
-                <p className="about-text">
-                    Tenho 23 anos e estou estudando desenvolvimento de software,
-                    busco grandes oportunidades para mostrar o meu valor na área e me desenvolver
-                    cada vez mais, tanto nas hard-skills quanto nas soft-skills.
-                </p>
+            <div className='about-text-div'>
+                <div className="about-text-session">
+                    <h3 className="about-hello-text">Olá, meu nome é Matheus</h3>
+                    <p className="about-text">
+                        Tenho 23 anos e estou estudando desenvolvimento de software,
+                        busco grandes oportunidades para mostrar o meu valor na área e me desenvolver
+                        cada vez mais, tanto nas hard-skills quanto nas soft-skills.
+                    </p>
+                </div>
+                <img className='about-hero-svg' src={ computerSvg } alt="men using a computer" />
             </div>
-                <hr />
             <div className="about-more-info">
                     <h2>Meus interesses e hobbies</h2>
                 <div className="about-interest">
