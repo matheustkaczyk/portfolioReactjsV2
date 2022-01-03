@@ -57,6 +57,8 @@ a {
   justify-content: space-around;
   flex-direction: row;
   align-content: center;
+  align-self: center;
+  align-items: center;
 }
 
 .header-buttons-div {
