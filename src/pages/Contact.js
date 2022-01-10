@@ -11,12 +11,20 @@ const Contact = () => {
   const handleSubmit = (e) => {
       e.preventDefault();
 
+      const button = document.getElementById('submit-btn');
+
+      button.disabled = true;
       emailjs.sendForm('service_vzekjfg', 'template_xt89i8i', e.target)
           .then(function() {
             console.log('SUCCESS!');
             setSent(true);
+            button.disabled = false;
+
+            setTimeout(() => setSent(false), 5000);
+
           }, function(error) {
             console.log('FAILED...', error);
+            button.disabled = false;
           });
   };
 
@@ -31,11 +39,11 @@ const Contact = () => {
                 <p className='contact-paragraph'>Ficou interessado? Mande um e-mail!</p>
             <div className='contact-div'>
                 <form className='contact-form' onSubmit={ (e) => handleSubmit(e) }>
-                    <input type="text" placeholder="Digite o seu nome" name="name"/>
-                    <input type="text" placeholder="Informe o assunto" name="subject"/>
-                    <input type="text" placeholder="Informe o seu email" name="email"/>
-                    <textarea placeholder="Digite a sua mensagem" name="message"/>
-                    <button id="submit-btn" type="submit">Enviar</button>
+                    <input required type="text" placeholder="Digite o seu nome" name="name"/>
+                    <input required type="text" placeholder="Informe o assunto" name="subject"/>
+                    <input required type="text" placeholder="Informe o seu email" name="email"/>
+                    <textarea required placeholder="Digite a sua mensagem" name="message"/>
+                    <button id="submit-btn" className='submit-btn' type="submit">Enviar</button>
                     { sent ? <span className='contact-confirmation'>E-mail enviado com sucesso!</span> : null }
                 </form>
             </div>

@@ -67,7 +67,7 @@ a {
 
 .header-name {
   color: #00ff40;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .menu-item {
@@ -75,7 +75,7 @@ a {
   align-self: center;
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .menu-item:hover {
@@ -107,12 +107,14 @@ a {
 }
 
 .main-hero-text {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 6px black;
 }
 
 .main-hero-subtitle {
   color: #00ff40;
   font-size: 2rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 .social-medias {
@@ -203,7 +205,7 @@ hr {
 .about-text {
   align-self: center;
   margin-left: 3%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .about-more-info {
@@ -366,6 +368,11 @@ hr {
 
 .contact-confirmation {
   color: #00ff40;
+}
+
+.submit-btn {
+  width: 30%;
+  margin-top: 2%;
 }
 
 form input {
